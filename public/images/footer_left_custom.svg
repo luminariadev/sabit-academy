@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%">
+  <defs>
+    <!-- Hard Neo-Brutalist Shadow Filter -->
+    <filter id="hard-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="8" dy="8" stdDeviation="0" flood-color="#121212" flood-opacity="1" />
+    </filter>
+    <filter id="hard-shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="5" dy="5" stdDeviation="0" flood-color="#121212" flood-opacity="1" />
+    </filter>
+  </defs>
+
+  <!-- Group Left Elements -->
+  <g id="footer-left-content">
+    
+    <!-- 1. Retro Terminal Window Sticker (Far Left) -->
+    <g transform="translate(60, 110) rotate(-4)" filter="url(#hard-shadow)">
+      <!-- Window Box -->
+      <rect x="0" y="0" width="340" height="230" rx="20" fill="#FFFEFB" stroke="#121212" stroke-width="4" />
+      <!-- Window Header -->
+      <path d="M 0 20 Q 0 0 20 0 L 320 0 Q 340 0 340 20 L 340 45 L 0 45 Z" fill="#F489A3" stroke="#121212" stroke-width="4" />
+      <!-- Header Dots -->
+      <circle cx="25" cy="22" r="7" fill="#FF5F56" stroke="#121212" stroke-width="2.5" />
+      <circle cx="48" cy="22" r="7" fill="#FFBD2E" stroke="#121212" stroke-width="2.5" />
+      <circle cx="71" cy="22" r="7" fill="#27C93F" stroke="#121212" stroke-width="2.5" />
+      <!-- Window Title -->
+      <text x="170" y="27" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-weight="700" font-size="14" fill="#121212">sabit.terminal ~ bash</text>
+      <!-- Terminal Content -->
+      <text x="25" y="85" font-family="'Courier New', monospace" font-weight="700" font-size="16" fill="#121212">$ sabit.start()</text>
+      <text x="25" y="120" font-family="'Courier New', monospace" font-weight="700" font-size="14" fill="#059669">✓ Connected to IF UIN SGD</text>
+      <text x="25" y="150" font-family="'Courier New', monospace" font-weight="700" font-size="14" fill="#6B7280">→ Members: 500+ mahasiswa</text>
+      <text x="25" y="180" font-family="'Courier New', monospace" font-weight="700" font-size="14" fill="#2563EB">→ Topic: Agentic AI &amp; Dev 🚀</text>
+      <!-- Blinking Cursor -->
+      <rect x="25" y="195" width="12" height="18" fill="#121212" />
+    </g>
+
+    <!-- 2. Sticker Pill: "100% Komunitas Mahasiswa" -->
+    <g transform="translate(140, 360) rotate(3)" filter="url(#hard-shadow-sm)">
+      <rect x="0" y="0" width="310" height="60" rx="30" fill="#F4B840" stroke="#121212" stroke-width="4" />
+      <text x="155" y="38" text-anchor="middle" font-family="'Sugar Peachy', sans-serif" font-weight="900" font-size="20" fill="#121212" letter-spacing="0.5">
+        ★ 100% MAHASISWA IF
+      </text>
+    </g>
+
+    <!-- 3. Retro Sparkle Stars (Floating) -->
+    <g transform="translate(80, 50)" filter="url(#hard-shadow-sm)">
+      <path d="M 25 0 Q 25 25 0 25 Q 25 25 25 50 Q 25 25 50 25 Q 25 25 25 0 Z" fill="#2DD4BF" stroke="#121212" stroke-width="3" />
+    </g>
+    <g transform="translate(430, 90)" filter="url(#hard-shadow-sm)">
+      <path d="M 20 0 Q 20 20 0 20 Q 20 20 20 40 Q 20 20 40 20 Q 20 20 20 0 Z" fill="#F489A3" stroke="#121212" stroke-width="3" />
+    </g>
+    <g transform="translate(490, 380)" filter="url(#hard-shadow-sm)">
+      <path d="M 15 0 Q 15 15 0 15 Q 15 15 15 30 Q 15 15 30 15 Q 15 15 15 0 Z" fill="#F4B840" stroke="#121212" stroke-width="2.5" />
+    </g>
+
+    <!-- 4. Cute Crescent Moon Mascot "SABIT" (Hugging the Sun on the right) -->
+    <!-- Positioned from x=540 to x=960, looking happily towards the sun! -->
+    <g transform="translate(560, 60)" filter="url(#hard-shadow)">
+      
+      <!-- Speech bubble from Moon: "Halo dari Sabit! ✨" -->
+      <g transform="translate(40, 20) rotate(-5)" filter="url(#hard-shadow-sm)">
+        <path d="M 0 20 Q 0 0 20 0 L 220 0 Q 240 0 240 20 L 240 50 Q 240 70 220 70 L 60 70 L 40 95 L 45 70 L 20 70 Q 0 70 0 50 Z" fill="#FFFEFB" stroke="#121212" stroke-width="3.5" />
+        <text x="115" y="42" text-anchor="middle" font-family="'Sugar Peachy', sans-serif" font-weight="900" font-size="18" fill="#121212">
+          Halo dari Sabit! ☽✨
+        </text>
+      </g>
+
+      <!-- Crescent Moon Body -->
+      <!-- Big Golden/Teal Crescent Shape -->
+      <path d="M 260 90 C 130 90 40 190 40 320 C 40 450 140 540 270 540 C 200 500 160 410 160 320 C 160 210 210 130 260 90 Z" 
+            fill="#2DD4BF" stroke="#121212" stroke-width="5" stroke-linejoin="round" />
+      
+      <!-- Moon Cheek Blush -->
+      <circle cx="120" cy="330" r="16" fill="#F489A3" opacity="0.8" />
+      
+      <!-- Moon Happy Face: Eye -->
+      <ellipse cx="145" cy="275" rx="10" ry="14" fill="#121212" />
+      <circle cx="142" cy="270" r="4" fill="#FFFEFB" /> <!-- Eye highlight -->
+      
+      <!-- Moon Cute Smile -->
+      <path d="M 120 300 Q 140 320 160 305" fill="none" stroke="#121212" stroke-width="4.5" stroke-linecap="round" />
+
+      <!-- Cute Party Hat on Moon! -->
+      <g transform="translate(230, 40) rotate(25)">
+        <polygon points="25,0 0,60 50,60" fill="#F489A3" stroke="#121212" stroke-width="3.5" stroke-linejoin="round" />
+        <circle cx="25" cy="-2" r="7" fill="#F4B840" stroke="#121212" stroke-width="2.5" />
+        <!-- Hat stripes -->
+        <line x1="10" y1="36" x2="40" y2="36" stroke="#FFFEFB" stroke-width="3" />
+        <line x1="5" y1="48" x2="45" y2="48" stroke="#F4B840" stroke-width="3" />
+      </g>
+
+    </g>
+
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 530" width="100%" height="100%">
+  <defs>
+    <!-- Hard Neo-Brutalist Shadow Filter -->
+    <filter id="hard-shadow-r" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="8" dy="8" stdDeviation="0" flood-color="#121212" flood-opacity="1" />
+    </filter>
+    <filter id="hard-shadow-r-sm" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="5" dy="5" stdDeviation="0" flood-color="#121212" flood-opacity="1" />
+    </filter>
+  </defs>
+
+  <g id="footer-right-content">
+    
+    <!-- 1. Cute Friendly Bot / Retro Mac Mascot (Left side, hugging the Sun!) -->
+    <!-- Positioned from x=50 to x=420 -->
+    <g transform="translate(60, 40)" filter="url(#hard-shadow-r)">
+      
+      <!-- Speech bubble from Bot: "See you di kampus! 🚀" -->
+      <g transform="translate(140, 20) rotate(4)" filter="url(#hard-shadow-r-sm)">
+        <path d="M 0 20 Q 0 0 20 0 L 220 0 Q 240 0 240 20 L 240 50 Q 240 70 220 70 L 40 70 L 20 95 L 25 70 L 20 70 Q 0 70 0 50 Z" fill="#FFFEFB" stroke="#121212" stroke-width="3.5" />
+        <text x="120" y="42" text-anchor="middle" font-family="'Sugar Peachy', sans-serif" font-weight="900" font-size="18" fill="#121212">
+          See you di kampus! 🚀
+        </text>
+      </g>
+
+      <!-- Computer Monitor Body -->
+      <rect x="20" y="100" width="260" height="230" rx="30" fill="#FFFEFB" stroke="#121212" stroke-width="5" />
+      
+      <!-- Monitor Screen -->
+      <rect x="40" y="120" width="220" height="150" rx="18" fill="#121212" stroke="#121212" stroke-width="3" />
+      
+      <!-- Screen Happy Face -->
+      <!-- Left Eye -->
+      <ellipse cx="110" cy="185" rx="14" ry="18" fill="#2DD4BF" />
+      <circle cx="106" cy="178" r="5" fill="#FFFEFB" />
+      <!-- Right Eye -->
+      <ellipse cx="190" cy="185" rx="14" ry="18" fill="#2DD4BF" />
+      <circle cx="186" cy="178" r="5" fill="#FFFEFB" />
+      <!-- Cheeks -->
+      <circle cx="85" cy="210" r="12" fill="#F489A3" />
+      <circle cx="215" cy="210" r="12" fill="#F489A3" />
+      <!-- Smile -->
+      <path d="M 130 205 Q 150 225 170 205" fill="none" stroke="#2DD4BF" stroke-width="5" stroke-linecap="round" />
+
+      <!-- Floppy Slot & Logo on Chin -->
+      <rect x="110" y="290" width="80" height="8" rx="4" fill="#121212" />
+      <circle cx="70" cy="294" r="6" fill="#F4B840" stroke="#121212" stroke-width="2" />
+
+      <!-- Cute Antenna -->
+      <line x1="150" y1="100" x2="150" y2="60" stroke="#121212" stroke-width="5" stroke-linecap="round" />
+      <circle cx="150" cy="50" r="14" fill="#F489A3" stroke="#121212" stroke-width="4" />
+      
+      <!-- Monitor Stand -->
+      <path d="M 110 330 L 190 330 L 210 380 L 90 380 Z" fill="#F3ECD2" stroke="#121212" stroke-width="4" />
+    </g>
+
+    <!-- 2. Sticker Tag: "< Agentic AI />" -->
+    <g transform="translate(480, 110) rotate(-6)" filter="url(#hard-shadow-r-sm)">
+      <rect x="0" y="0" width="220" height="65" rx="16" fill="#F489A3" stroke="#121212" stroke-width="4" />
+      <text x="110" y="42" text-anchor="middle" font-family="'Space Grotesk', monospace, sans-serif" font-weight="900" font-size="20" fill="#121212" letter-spacing="1">
+        &lt; AGENTIC AI /&gt;
+      </text>
+    </g>
+
+    <!-- 3. Sticker Pill: "★ UIN SUNAN GUNUNG DJATI" -->
+    <g transform="translate(430, 230) rotate(2)" filter="url(#hard-shadow-r)">
+      <rect x="0" y="0" width="380" height="65" rx="32" fill="#F4B840" stroke="#121212" stroke-width="4" />
+      <text x="190" y="42" text-anchor="middle" font-family="'Sugar Peachy', sans-serif" font-weight="900" font-size="20" fill="#121212" letter-spacing="0.5">
+        ★ INFORMATIKA UIN SGD
+      </text>
+    </g>
+
+    <!-- 4. Cute Coffee Cup Sticker (Far Right) -->
+    <g transform="translate(830, 130) rotate(8)" filter="url(#hard-shadow-r-sm)">
+      <!-- Cup Body -->
+      <path d="M 15 35 L 30 115 Q 32 125 45 125 L 85 125 Q 98 125 100 115 L 115 35 Z" fill="#2DD4BF" stroke="#121212" stroke-width="4" />
+      <!-- Cup Lid -->
+      <rect x="8" y="20" width="114" height="18" rx="6" fill="#FFFEFB" stroke="#121212" stroke-width="3.5" />
+      <!-- Cup Sleeve -->
+      <path d="M 22 55 L 26 95 L 104 95 L 108 55 Z" fill="#F4B840" stroke="#121212" stroke-width="3" />
+      <!-- Cup Face -->
+      <circle cx="55" cy="75" r="3" fill="#121212" />
+      <circle cx="75" cy="75" r="3" fill="#121212" />
+      <path d="M 60 83 Q 65 88 70 83" fill="none" stroke="#121212" stroke-width="2" stroke-linecap="round" />
+      <!-- Steam -->
+      <path d="M 45 12 Q 40 2 45 -8" fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" />
+      <path d="M 65 12 Q 70 2 65 -8" fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" />
+      <path d="M 85 12 Q 80 2 85 -8" fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" />
+    </g>
+
+    <!-- 5. Floating Retro Sparkles -->
+    <g transform="translate(420, 50)" filter="url(#hard-shadow-r-sm)">
+      <path d="M 22 0 Q 22 22 0 22 Q 22 22 22 44 Q 22 22 44 22 Q 22 22 22 0 Z" fill="#F4B840" stroke="#121212" stroke-width="3" />
+    </g>
+    <g transform="translate(740, 60)" filter="url(#hard-shadow-r-sm)">
+      <path d="M 25 0 Q 25 25 0 25 Q 25 25 25 50 Q 25 25 50 25 Q 25 25 25 0 Z" fill="#2DD4BF" stroke="#121212" stroke-width="3" />
+    </g>
+    <g transform="translate(840, 310)" filter="url(#hard-shadow-r-sm)">
+      <path d="M 18 0 Q 18 18 0 18 Q 18 18 18 36 Q 18 18 36 18 Q 18 18 18 0 Z" fill="#F489A3" stroke="#121212" stroke-width="2.5" />
+    </g>
+
+  </g>
+</svg>
